@@ -43,9 +43,8 @@ Crie uma função com as seguintes características:
 function funcao2( p1, p2, p3 ) {
    if (p1 === undefined || p2 === undefined || p3 === undefined) {
        return 'Preencha todos os valores corretamente!';
-   } else {
-       return p1 * p2 * p3;
-   }
+   } 
+   return (p1 * p2 * p3) + 2;   
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
@@ -55,7 +54,7 @@ funcao2(2, 2)
 "Preencha todos os valores corretamente!"
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-funcao2(2, 2, 2) + 2
+funcao2(2, 2, 2)
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 10
