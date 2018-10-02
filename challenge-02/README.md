@@ -28,10 +28,10 @@ function funcao1() {
 }
 
 // Invoque a função criada acima.
-?
+funcao1()
 
 // Qual o retorno da função? (Use comentários de bloco).
-?
+"O valor da variável agora é 25"
 
 /*
 Crie uma função com as seguintes características:
